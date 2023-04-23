@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      h5 {
+        font-family: "Inconsolata";
+        font-style: normal;
+        font-weight: 700;
+        font-size: 24px;
+        line-height: 25px;
+        letter-spacing: -0.08em;
+        text-transform: uppercase;
+
+        color: #333333;
+      }
+
+      h1 {
+        font-family: "Space Mono";
+        font-style: normal;
+        font-weight: 700;
+        font-size: 64px;
+        line-height: 95px;
+        letter-spacing: -0.035em;
+
+        /* Gray 1 */
+        color: #333333;
+
+        width: 60%;
+        margin-bottom: 0;
+      }
+
+      p {
+        font-family: "Space Mono";
+        font-style: normal;
+        font-weight: 400;
+        font-size: 24px;
+        line-height: 36px;
+        letter-spacing: -0.035em;
+
+        /* Gray 2 */
+        color: #4f4f4f;
+
+        width: 50%;
+        margin: 0;
+      }
+
+      button {
+        width: 216px;
+        height: 68px;
+        /* Gray 1 */
+        background: #333333;
+
+        font-family: "Space Mono";
+        font-style: normal;
+        font-weight: 700;
+        font-size: 14px;
+        line-height: 21px;
+
+        /* identical to box height */
+        letter-spacing: -0.035em;
+        text-transform: uppercase;
+
+        color: #ffffff;
+      }
+
+      body {
+        height: 80vh;
+        margin: 10px;
+      }
+
+      .outside {
+        height: 100%;
+        width:100%;
+        display: flex;
+        align-items: center;
+      }
+
+      .container {
+        width:100%;
+        display: flex;
+        justify-content: space-evenly;
+        align-content: center;
+        height: 400px;
+      }
+
+      .parent {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+      }
+
+      img {
+        height: 447.4263916015625px;
+        width: 539.2236938476562px;
+      }
+
+    </style>
+  </head>
+  <body>
+    <h5>404 Not Found</h5>
+    <div class="outside">
+      <div class="container">
+        <img src="Scarecrow.png" />
+        <div class="parent">
+          <h1 class="child">I have bad news for you</h1>
+          <p class="child">
+            The page you are looking for might be removed or is temporarily
+            unavailable
+          </p>
+          <button class="child">Back to homepage</button>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
